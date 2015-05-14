@@ -12,3 +12,6 @@ public interface MyInterface {
 }
 ```
 测试版本发布。dd
+
+* 中文测试
+* 大大大大
