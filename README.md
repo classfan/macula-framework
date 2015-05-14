@@ -2,7 +2,7 @@ macula-framework
 ================
 
 Macula Framework
-开始电子书写作2
+开始电子书写作
 ```
 package com.xxx
 
