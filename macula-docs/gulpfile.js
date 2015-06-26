@@ -4,7 +4,7 @@ var gulp = require("gulp"),
 gulp.task('publish', function () {  
   gulp.src("_book/\*\*/\*.\*")
     .pipe(deploy({
-      remoteUrl: "git@github.com:luicfer/XXXX.git"
+      remoteUrl: "git@github.com:macula-projects/macula-framework.git"
     }))
     .on("error", function(err){
       console.log(err)
