@@ -3,7 +3,7 @@ var gulp = require("gulp"),
 
 gulp.task('publish', function () {  
   gulp.src("_book/**/*")
-    .pipe(deploy())
+    .pipe(deploy({force:true}))
     .on("error", function(err){
       console.log(err)
     })
