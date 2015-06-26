@@ -9,4 +9,4 @@ gulp.task('publish', function () {
     .on("error", function(err){
       console.log(err)
     })
-});
+}); 
