@@ -13,3 +13,4 @@ hs_err_pid*
 node_modules
 _book
 .publish
+.grunt
